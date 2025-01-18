@@ -12,7 +12,12 @@ const Contact = () => {
       </p>
       <div className="flex flex-wrap relative top-[5vh] left-48 gap-10 box-border	box-sizing: border-box; ">
         <div className="">
-          <Image src="" alt="card1" width='50' height='50' />
+          <Image
+            src="/images/Register.png"
+            alt="card1"
+            width="50"
+            height="50"
+          />
           <div className=" h-[15px]">
             <p className=" p-0 m-0 relative  text-[13px] left-32 top-[-35vh] text-[#0F595B] overflow-y-auto ">
               Event Coordinator
@@ -22,16 +27,21 @@ const Contact = () => {
             Chetan Anand Jhariya
           </h2>
           <div className="flex relative left-10 -top-44 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="/images/Vector.png" alt="" width="50" height="50" />
             <p>+91 70009 47461</p>
           </div>
           <div className="flex relative left-10 -top-40 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="images/Group.png" alt="" width="50" height="50" />
             <p>22bme021@iiitdmj.ac.in</p>
           </div>
         </div>
         <div>
-          <Image src="" alt="card1" width='50' height='50'/>
+          <Image
+            src="/images/Register.png"
+            alt="card1"
+            width="50"
+            height="50"
+          />
           <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
             Event Coordinator
           </p>
@@ -39,16 +49,21 @@ const Contact = () => {
             Sankalp
           </h2>
           <div className="flex relative left-10 -top-44 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="/images/Vector.png" alt="" width="50" height="50" />
             <p>+91 84096 46129</p>
           </div>
           <div className="flex relative left-10 -top-40 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="images/Group.png" alt="" width="50" height="50" />
             <p>22bme051@iiitdmj.ac.in</p>
           </div>
         </div>
         <div>
-          <Image src="" alt="card1" width='50' height='50'/>
+          <Image
+            src="/images/Register.png"
+            alt="card1"
+            width="50"
+            height="50"
+          />
           <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
             Faculty Incharge
           </p>
@@ -56,18 +71,18 @@ const Contact = () => {
             Dr. Yashpal Singh Katharria
           </h2>
           <div className="flex relative left-10 -top-44 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="/images/Vector.png" alt="" width="50" height="50" />
             <p>+91 81075 91910</p>
           </div>
           <div className="flex relative left-10 -top-40 gap-4">
-            <Image src="" alt="" width='50' height='50'/>
+            <Image src="/images/Group.png" alt="" width="50" height="50" />
             <p>yashpalk@iiitdmj.ac.in</p>
           </div>
         </div>
       </div>
       <Image
         className="relative -top-[90vh] left-[120vh]"
-        src=""
+        src="/images/Groupgear.png"
         alt="blah"
       />
     </div>
