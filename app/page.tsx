@@ -1,4 +1,4 @@
-import AboutUs from "./(Custom Components)/Aboutus";
+import AboutUs from "./(Custom Components)/aboutus";
 import Contact from "./(Custom Components)/Contactus";
 import Navbar from "./(Custom Components)/Navbar";
 import Schedule from "./(Custom Components)/Schedule";

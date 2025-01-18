@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../components/ui/Button";
+// import Img1 from "../images/img1.png";
 
 const AboutUs = () => {
   return (
@@ -61,10 +62,10 @@ const AboutUs = () => {
         <div className="flex items-center justify-end h-screen relative">
           <img
             className="absolute top-0 left-0 w-auto h-auto"
-            src="/images/img1.png"
+            // src={Img1}
             alt="text"
           />
-          <img className="w-full h-auto" src="/images/img2.png" alt="circle" />
+          <img className="w-full h-auto" alt="circle" />
         </div>
       </div>
     </>
