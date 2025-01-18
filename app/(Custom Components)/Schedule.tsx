@@ -11,11 +11,11 @@ const Schedule: React.FC = () => {
 
   return (
     <div className="px-24 rounded-lg my-12">
-      <h1 className="text-6xl font-bold">Schedule</h1>
+      <h1 className="text-[85.33px] font-bold text-white">Schedule</h1>
 
       <div className="flex justify-start gap-[29rem] pl-[8rem] mt-8 mb-4 text-3xl">
-        <p className=" font-medium">5 Feb '25</p>
-        <p className="font-medium">6 Feb '25</p>
+        <p className=" font-medium">5 Feb &apos;25</p>
+        <p className="font-medium">6 Feb &apos;25</p>
       </div>
 
       <div className="grid grid-cols-2 gap-8">
