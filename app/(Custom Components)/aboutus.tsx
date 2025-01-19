@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../components/ui/Button";
 // import Img1 from "../images/img1.png";
+import { Button } from "./ui/Button";
 
 const AboutUs = () => {
   return (

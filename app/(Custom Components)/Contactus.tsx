@@ -34,7 +34,11 @@ const Contact = () => {
               <p>+91 70009 47461</p>
             </div>
             <div className="flex relative left-10 -top-40 gap-4">
+
               <Image src={Group} alt="" width="50" height="50" />
+
+              <Image src="/images/Group.png" alt="" width="50" height="50" />
+
               <p>22bme021@iiitdmj.ac.in</p>
             </div>
           </div>
@@ -56,7 +60,11 @@ const Contact = () => {
               <p>+91 84096 46129</p>
             </div>
             <div className="flex relative left-10 -top-40 gap-4">
+
               <Image src={Group} alt="" width="50" height="50" />
+
+              <Image src="/images/Group.png" alt="" width="50" height="50" />
+
               <p>22bme051@iiitdmj.ac.in</p>
             </div>
           </div>
@@ -85,7 +93,12 @@ const Contact = () => {
         </div>
         <Image
           className="relative -top-[90vh] left-[120vh]"
+
           src={Groupgear}
+
+          src="/images/Groupgear.png"
+          width="50" height="50"
+
           alt="blah"
         />
       </div>
