@@ -1,6 +1,5 @@
 import React from "react";
-import PrevPage from "../(Custom Components)/ui/PrevPage";
-import Navbar from "../(Custom Components)/Navbar";
+import PrevPage from "./PrevPage";
 import LinkedIn from "@/public/images/linkedin.png";
 import Twitter from "@/public/images/twitter.png";
 import Instagram from "@/public/images/instagram.png";
@@ -9,8 +8,7 @@ import Image from "next/image";
 
 const tobelaunched = () => {
   return (
-    <div className="bg-bg-img bg-cover bg-center h-screen w-full">
-      <Navbar />
+    <div className="bg-bg-img bg-cover bg-center h-screen w-full content-center">
       <div className="flex flex-col items-center justify-center text-white py-[12vh] gap-6 text-center">
         <h1 className="text-5xl">TO BE LAUNCHED SOON...</h1>
 
