@@ -9,13 +9,15 @@ import Footer from "./(Custom Components)/Footer";
 export default function Home() {
   return (
     <div className="p-2 m-1">
-        <Navbar/>
-        <AboutUs/>
-        <Schedule/>
-        <Highlights/>
-        <Events/>
-        <Contact/>
-        <Footer/>
+      <div className="sticky top-0 z-50">
+        <Navbar />
+      </div>
+      <AboutUs />
+      <Schedule />
+      <Highlights />
+      <Events />
+      <Contact />
+      <Footer />
     </div>
   );
 }
