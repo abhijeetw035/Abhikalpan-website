@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="flex flex-wrap gap-8 box-border justify-center m-10">
         <div className="relative w-[22vw] h-[29vh]">
           {/* Image Container */}
-          <Image
+          <img
             src="/images/Register.png"
             alt="card1"
             width="300"
@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="absolute top-[55%] left-6 flex flex-col gap-2">
             {/* Phone */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Vector.png"
                 alt="Phone Icon"
                 width="20"
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             {/* Email */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Group.png"
                 alt="Email Icon"
                 width="20"
@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
         <div className="relative w-[22vw] h-[29vh]">
           {/* Image Container */}
-          <Image
+          <img
             src="/images/Register.png"
             alt="card1"
             width="300"
@@ -79,7 +79,7 @@ const Contact = () => {
           <div className="absolute top-[55%] left-6 flex flex-col gap-2">
             {/* Phone */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Vector.png"
                 alt="Phone Icon"
                 width="20"
@@ -89,7 +89,7 @@ const Contact = () => {
             </div>
             {/* Email */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Group.png"
                 alt="Email Icon"
                 width="20"
@@ -101,7 +101,7 @@ const Contact = () => {
         </div>
         <div className="relative w-[22vw] h-[29vh]">
           {/* Image Container */}
-          <Image
+          <img
             src="/images/Register.png"
             alt="card1"
             width="300"
@@ -123,7 +123,7 @@ const Contact = () => {
           <div className="absolute top-[55%] left-6 flex flex-col gap-2">
             {/* Phone */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Vector.png"
                 alt="Phone Icon"
                 width="20"
@@ -133,7 +133,7 @@ const Contact = () => {
             </div>
             {/* Email */}
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="/images/Group.png"
                 alt="Email Icon"
                 width="20"
