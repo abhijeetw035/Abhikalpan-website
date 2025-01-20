@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="flex position-absolute sticky justify-center content-center flex-col p-0 m-0">
-      <div className="bg-cyan-300 h-28 opacity-50 absolute w-full">.</div>
+      <div className=" h-28 opacity-50 absolute w-full">.</div>
       <Image
         src={Logo}
         alt="logo"
@@ -21,7 +21,7 @@ const Navbar = () => {
           layout="responsive"
           className="p-4 w-full"
         />
-        <div className="absolute top-[33%] md:gap-[2rem] md:right-[4rem] right-[7rem] flex gap-[1rem] lg:gap-[4rem] text-cyan-300 lg:text-lg 2xl:gap-[7rem] 2xl:text-3xl 2xl:right-[8rem]">
+        <div className="absolute top-[33%] sm:gap-[0.5rem] sm:right-[1rem] md:gap-[1rem] md:right-[1rem] flex gap-[1rem] lg:gap-[3rem] text-cyan-300 lg:text-lg 2xl:gap-[4rem] 2xl:text-2xl 2xl:right-[8rem]">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/events">Events</Link>

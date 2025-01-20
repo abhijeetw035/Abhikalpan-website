@@ -12,11 +12,11 @@ export default function Home() {
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
-      <AboutUs />
+    <AboutUs/>
       <Schedule />
       <Highlights />
       <Events />
-      <Contact />
+       <Contact/>
       <Footer />
     </div>
   );

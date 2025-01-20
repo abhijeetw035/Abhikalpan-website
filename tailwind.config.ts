@@ -17,9 +17,7 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      backgroundImage: {
-        "bg-img": "url('/assets/background.png')",
-      },
+     
     },
   },
   plugins: [require("tailwindcss-animate")],

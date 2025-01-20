@@ -1,6 +1,8 @@
-import Image from 'next/image'
-import React from 'react'
-import Date from '@/public/assets/date.png'
+import Image from 'next/image';
+import React from 'react';
+import Date from '@/public/assets/date.png';
+import KnowMoreImage from '@/public/images/image.png'
+import Link from 'next/link';
 
 const Schedule: React.FC = () => {
   const events = Array(8).fill({
@@ -10,7 +12,7 @@ const Schedule: React.FC = () => {
   });
 
   return (
-    <div className="px-24 rounded-lg my-12">
+    <div className="px-24 rounded-lg my-12 relative">
       <h1 className="text-[85.33px] font-bold text-white">Schedule</h1>
 
       <div className="flex justify-start gap-[29rem] pl-[8rem] mt-8 mb-4 text-3xl">
@@ -38,6 +40,19 @@ const Schedule: React.FC = () => {
           </div>
         ))}
       </div>
+
+      
+      <Link href="/events">
+     
+          <Image
+            src={KnowMoreImage}
+            alt="Know More"
+            width={150}  
+            height={50}  
+             className="absolute bottom-0 right-4 cursor-pointer"
+          />
+     
+      </Link>
     </div>
   );
 };

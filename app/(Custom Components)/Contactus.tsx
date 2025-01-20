@@ -1,80 +1,83 @@
-import React from "react";
+import Image from "next/image";
+import card from "@/public/images/Register.png";
+import phone from "@/public/images/Vector.png";
+import email from "@/public/images/Group.png";
 
-const Contact = () => {
+export default function ContactUs() {
+  const contacts = [
+    {
+      name: "Chetan Anand Jhariya",
+      role: "Event Coordinator",
+      phone: "+91 70009 47461",
+      email: "22bme021@iiitdmj.ac.in",
+      cardImage: card,
+      callIcon: phone,
+      emailIcon: email,
+    },
+    {
+      name: "Sankalp",
+      role: "Event Coordinator",
+      phone: "+91 84096 46129",
+      email: "22bme051@iiitdmj.ac.in",
+      cardImage: card,
+      callIcon: phone,
+      emailIcon: email,
+    },
+    {
+      name: "Dr. Yashpal Singh Katharria",
+      role: "Faculty Incharge",
+      phone: "+91 81075 91910",
+      email: "yashpalk@iiitdmj.ac.in",
+      cardImage: card,
+      callIcon: phone,
+      emailIcon: email,
+    },
+  ];
+
   return (
-    <>
-      <div className="relative top-[10vh]">
-        <p className="relative -top-5 left-[100vh]  text-5xl font-aboro text-white ">
-          Contact Us
-        </p>
-        <p className="relative -top-5 left-[83vh] text-l text-white">
-          For any queries regarding section mentioned feel free to contact.
-        </p>
-        <div className="flex flex-wrap relative top-[5vh] left-48 gap-14 box-border	box-sizing: border-box; ">
-          <div className="transform origin hover:scale-125 transition duration-300">
-            <img className="" src="/images/Register.png" alt="card1" />
-            <div className=" h-[15px]">
-              <p className=" p-0 m-0 relative  text-[13px] left-32 top-[-35vh] text-[#0F595B] overflow-y-auto ">
-                Event Coordinator
-              </p>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-teal-800 via-teal-600 to-teal-400 px-6 py-12">
+      <h1 className="text-5xl font-bold text-white mb-4">CONTACT US</h1>
+      <p className="text-lg text-teal-100 mb-12">
+        For any queries regarding any section mentioned, feel free to contact.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {contacts.map((contact, index) => (
+          <div
+            key={index}
+            className="relative w-full h-64 p-6 flex flex-col justify-between bg-cover bg-center rounded-lg"
+            style={{
+              backgroundImage:'@/public/images/Register.png',
+            }}
+          >
+            <div className="absolute top-0 left-3 text-teal-100 px-3 py-1 rounded-lg text-sm">
+              {contact.role}
             </div>
-            <h2 className="relative left-9 -top-52 text-2xl text-[#0F595B] ">
-              Chetan Anand Jhariya
-            </h2>
-            <div className="flex relative left-10 -top-44 gap-4">
-              <img src="/images/Vector.png" alt="" width="50" height="50" />
-              <p>+91 70009 47461</p>
-            </div>
-            <div className="flex relative left-10 -top-40 gap-4">
-              <img src="/images/Group.png" alt="" width="50" height="50" />
-              <p>22bme021@iiitdmj.ac.in</p>
-            </div>
-          </div>
-          <div className="transform origin hover:scale-125 transition duration-300">
-            <img src="/images/Register.png" alt="card1" />
-            <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
-              Event Coordinator
-            </p>
-            <h2 className="relative left-11  -top-52 text-2xl text-[#0F595B]">
-              Sankalp
-            </h2>
-            <div className="flex relative left-10 -top-44 gap-4">
-              <img src="/images/Vector.png" alt="" width="50" height="50" />
-              <p>+91 84096 46129</p>
-            </div>
-            <div className="flex relative left-10 -top-40 gap-4">
-              <img src="/images/Group.png" alt="" width="50" height="50" />
-              <p>22bme051@iiitdmj.ac.in</p>
+            <h2 className="text-2xl font-bold text-white">{contact.name}</h2>
+            <div className="space-y-2">
+              <div className="flex items-center space-x-2">
+                <Image
+                  src={contact.callIcon}
+                  alt="Phone Icon"
+                  width={20}
+                  height={20}
+                  className="w-5 h-5"
+                />
+                <p className="text-white">{contact.phone}</p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Image
+                  src={contact.emailIcon}
+                  alt="Email Icon"
+                  width={20}
+                  height={20}
+                  className="w-5 h-5"
+                />
+                <p className="text-white">{contact.email}</p>
+              </div>
             </div>
           </div>
-          <div className="transform origin hover:scale-125 transition duration-300">
-            <img src="/images/Register.png" alt="card1" />
-            <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
-              Faculty Incharge
-            </p>
-            <h2 className="relative left-7 -top-52 text-2xl  text-[#0F595B]">
-              Dr. Yashpal Singh Katharria
-            </h2>
-            <div className="flex relative left-10 -top-44 gap-4">
-              <img src="/images/Vector.png" alt="" width="50" height="50" />
-              <p>+91 81075 91910</p>
-            </div>
-            <div className="flex relative left-10 -top-40 gap-4">
-              <img src="/images/Group.png" alt="" width="50" height="50" />
-              <p>yashpalk@iiitdmj.ac.in</p>
-            </div>
-          </div>
-        </div>
-        <img
-          className="relative -top-[90vh] left-[120vh]"
-          src="/images/Groupgear.png"
-          width="50"
-          height="50"
-          alt="blah"
-        />
+        ))}
       </div>
-    </>
+    </div>
   );
-};
-
-export default Contact;
+}
