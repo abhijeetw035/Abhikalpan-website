@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="flex flex-col items-start space-y-6">
 
           <img
-            src="/path-to-logo/abhikalpan-logo.png"
+            src="/assets/Logo.png"
             alt="Abhikalpan Logo"
-            className="h-12"
+            className="h-40"
           />
 
 
@@ -54,20 +54,22 @@ export default function Footer() {
         </div>
 
 
-        <div className="flex flex-col items-center space-y-6">
+        <div className="flex flex-col items-end space-y-6">
 
           <a href="/register">
             <img
-              src="/path-to-image/register-button.png"
+              src="/assets/image.png"
               alt="Register Now"
-              className="h-12 hover:opacity-90"
+              className="h-20 hover:opacity-90"
             />
           </a>
 
 
-          <a href="#top" className="text-cyan-300">
-            <ArrowUpCircleIcon className="w-8 h-8 hover:text-white" />
-          </a>
+          <div className="self-end">
+    <a href="#top" className="text-cyan-300">
+      <ArrowUpCircleIcon className="w-12 h-12 hover:text-white" />
+    </a>
+  </div>
 
 
           <div className="text-right text-sm">
