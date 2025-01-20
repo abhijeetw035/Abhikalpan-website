@@ -10,7 +10,7 @@ const Schedule: React.FC = () => {
   });
 
   return (
-    <div className="px-24 rounded-lg my-12">
+    <div className="bg-gradient-to-b from-gray-800 to-teal-600 px-24 rounded-lg my-12">
       <h1 className="text-[85.33px] font-bold text-white">Schedule</h1>
 
       <div className="flex justify-start gap-[29rem] pl-[8rem] mt-8 mb-4 text-3xl">

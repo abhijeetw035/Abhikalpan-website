@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from blue-900 to-teal-700 flex items-center text-left gap-[20px] m-0 w-[300vh] ">
+    <div className="min-h-screen bg-gradient-to-r from blue-900 to-teal-700 flex items-center text-left gap-[20px] m-0">
       <div className="p-8 text-left">
         {/*Tiltle*/}
         <h1 className="text-5xl text-white font-bold mb-6">
