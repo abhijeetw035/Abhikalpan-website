@@ -21,7 +21,11 @@ const Navbar = () => {
           layout="responsive"
           className="p-4 w-full"
         />
-        <div className="absolute top-[33%] sm:gap-[0.5rem] sm:right-[1rem] md:gap-[1rem] md:right-[1rem] flex gap-[1rem] lg:gap-[3rem] text-cyan-300 lg:text-lg 2xl:gap-[4rem] 2xl:text-2xl 2xl:right-[8rem]">
+       <div className="absolute top-[33%] right-0 flex gap-2 text-cyan-300 text-sm 
+  sm:right-[6rem] sm:gap-[0.5rem] sm:text-base 
+  md:right-[6rem] md:gap-[1rem] md:text-lg 
+  lg:gap-[3rem] lg:text-lg 
+  2xl:right-[8rem] 2xl:gap-[4rem] 2xl:text-2xl">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/events">Events</Link>
