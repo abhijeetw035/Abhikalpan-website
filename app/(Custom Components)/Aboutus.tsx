@@ -21,7 +21,7 @@ const AboutUs = () => {
         </p>
         <div className="flex gap-4">
           <button>
-            <img
+            <Image
               src='/images/twitter.png'
               alt="Twitter"
               width={40}
@@ -30,7 +30,7 @@ const AboutUs = () => {
             />
           </button>
           <button>
-            <img
+            <Image
               src="/images/instagram.png"
               alt="Instagram"
               width={40}
@@ -39,7 +39,7 @@ const AboutUs = () => {
             />
           </button>
           <button>
-            <img
+            <Image
               src="/images/linkedin.png"
               alt="LinkedIn"
               width={40}
@@ -50,14 +50,14 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="flex items-center justify-end h-screen relative">
-        <img
+        <Image
           className="absolute top-0 left-0 w-auto h-auto"
           src="/images/img1.png"
           alt="text"
           width={50}
           height={50}
         />
-        <img
+        <Image
           className="w-full h-auto"
           src="/images/img2.png"
           alt="circle"
