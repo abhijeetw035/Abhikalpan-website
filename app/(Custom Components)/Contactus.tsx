@@ -1,9 +1,9 @@
-import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
   return (
     <>
+
       <p className="text-5xl font-aboro text-white text-center">
           Contact Us
         </p>
