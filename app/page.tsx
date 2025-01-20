@@ -16,6 +16,12 @@ export default function Home() {
         <Footer />
         <VideoComponent />
       </div>
+    <AboutUs/>
+      <Schedule />
+      <Highlights />
+      <Events />
+       <Contact/>
+      <Footer />
     </div>
   );
 }
